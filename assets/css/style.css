@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font-family: cursive;
+}
+
+.nav-item:hover {
+  background: grey;
+  color: white
+}
+
+/*.nav-link:active {
+  color: white
+}*/
+
+#carousel {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.card {
+  min-height: 200px
+}
+
+footer {
+  margin-top: 20px
+}
+
+footer > div > ul {
+  list-style: none;
+  margin: 5px
+}
+
+#headerimg {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
