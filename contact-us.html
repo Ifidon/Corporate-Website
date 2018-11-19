@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About Us - Test Site</title>
+    <title>Contact Us - Test Site</title>
     <link rel="stylesheet" href="./assets/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="./assets/css/style.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +16,7 @@
             <div class="navbar-header">
               <a href="./views/index.html" class="navbar-brand">
                 <img src="./assets/images/neftil.JPG" alt="" class="navbar-brand mr-7" width="80" height="80"/>
-                Site Name
+                Neftil Solutions
               </a>
             </div>
             <button type="button" name="button" class='navbar-toggler' data-toggle="collapse" data-target="#menulistdiv">
@@ -48,16 +48,27 @@
           </div>
         </nav>
       </header>
-      <img src="./assets/images/jumbotron01.jpg" alt="jumbotron-image" class="img-responsive w-100" id="headerimg"/>
+      <img src="./assets/images/jumbotron05.jpg" alt="jumbotron-image" class="img-responsive w-100" id="headerimg"/>
       <div class="row">
-        <div class="col-10 m-auto">
-          <h3 class="text-center">Contact Us</h3>
-          <form class="" action="index.html" method="post" id="contactform">
-            <input type="text" name="fullname" value="" placeholder="Full Name" class="form-control">
-            <input type="email" name="email" value="" placeholder="E-Mail Address" class="form-control">
-            <input type="text" name="phone" value="" placeholder="Phone Number" class="form-control">
-            <textarea name="message" rows="8" cols="100" placeholder="Enter Message Here"></textarea>
-            <input type="submit"  value="Send Message" class="form-control">
+        <div class="col-10 m-auto card">
+          <h3 class="col-12 text-center my-2">Contact Us</h3>
+          <h5 class="my-3">You can get in touch with us using any of the contact details provided below:</h5>
+          <h6 class="ml-4">Contact Address: No. 27 ABC Close, Abuja, Nigeria.</h6>
+          <h6 class="ml-4">E-mail Address: <a href="mailto: neftilsngl@gmail.com">neftilsngl@gmal.com</a> </h6>
+          <h6 class="ml-4">Phone Number: <a href="tel:+2349097710658">09097710658</a> - available 9:00am - 4:00pm (Mondays - Fridays)</h6>
+          <h5 class="my-3">You can also click on the button to schecule a meeting/call and we will get in touch with you at a convenient time of your choosing
+            <a href="https://calendly.com/e_fidon" class="btn btn-sm btn-dark m-1">Schedule Meeting/Call</a>
+            <br>
+            <br> Thank you.
+          </h5>
+        </div>
+        <div class="col-12 col-lg-6 m-auto d-none">
+          <form class="my-5" action="index.html" method="post" id="contactform">
+            <input type="text" name="fullname" value="" placeholder="Full Name" class="form-control my-2">
+            <input type="email" name="email" value="" placeholder="E-Mail Address" class="form-control my-2">
+            <input type="text" name="phone" value="" placeholder="Phone Number" class="form-control my-2">
+            <textarea name="message" rows="8" cols="100" placeholder="Enter Message Here" class=" form-control my-2"></textarea>
+            <input type="submit"  value="Send Message" class="form-control btn btn-dark">
           </form>
         </div>
       </div>
